@@ -17,3 +17,8 @@ yelp.business("yelp-san-francisco", function(error, data) {
   console.log(data);
 });
 
+yelp.phone({phone: '2132686014', cc:"BR", ywsid: "XXXXXXXXXXXXXXXX"}, function(error, data) {
+    console.log(error);
+    console.log(data);
+});
+
